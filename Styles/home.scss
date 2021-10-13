@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    scroll-behavior: smooth;
+}
+
+img#navimage {
+    width: 20%;
+}
+
+img#likes {
+    width: 30%;
+}
+
+div#likehover:hover {
+    background-color: white;
+}
+
+#radius {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50% 0% 50%;
+}
+
+#profileimage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% 50% 0% 50%;
+}
+
+#terms {
+    width: 15%;
+}
+
+#messageimage {
+    background-image: url(../Images/Graphic1-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#message {
+    margin-top: 60vh;
+}
+
+#menulink {
+    width: 50%;
+}

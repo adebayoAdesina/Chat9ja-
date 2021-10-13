@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats/Adedokun Oluwaseyi Victor</title>
+    <link rel="icon" href="../images/icons8_Chat_50px.png">
+    <link rel="stylesheet" href="../Styles/home.css">
+    <link rel="stylesheet" href="../bootstrap-4.5.2/dist/css/bootstrap.min.css">
+    <script src="../bootstrap-4.5.2/dist/js/bootstrap.js"></script>
+    <script src="../bootstrap-4.5.2/site/docs/4.5/assets/js/vendor/jquery.slim.min.js"></script>
+    <script src="../bootstrap-4.5.2/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-default bg-success sticky-top navbar-expand-sm shadow pl-2 pr-5">
+            <a href="#" class="nav-brand ml-3 h4 pt-2 text-white"> <img src="../Images/icons8_Chat_50px_1.png" alt="Chat9ja Logo"> Chat9ja</a>
+            
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse">
+                <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" id="home">
+                        <a href="dhome.html" class="nav-link pr-0 text-white"> <img src="../Images/icons8_Home_64px.png" alt="" id="navimage"> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dfriends.html" class="nav-link pr-0 text-white"> <img src="../Images/icons8_Meeting_50px.png" alt="" id="navimage"> Friends</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="dchat.html" class="nav-link pr-0 text-success bg-white border"> <img src="../Images/icons8_Chat_50px.png" alt="" id="navimage"> Chats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dgroups.html" class="nav-link pr-0 text-white"> <img src="../Images/icons8_User_Groups_64px_1.png" alt="" id="navimage"> Groups</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link pr-0 text-white dropdown-toggle" data-toggle="dropdown"><img src="../Images/icons8_Google_News_50px.png" alt="" id="navimage"> News</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Punch</a>
+                            <a href="#" class="dropdown-item">Vangaurd</a>
+                            <a href="#" class="dropdown-item">Daily news</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="dprofile.html">
+                <div class="div">
+                    <img src="../Images/icons8_Male_User_50px.png" alt="">
+                </div>
+            </a>
+        </nav>
+        <div class="container shadow mt-3">
+            <div class="row bg-white">
+                <div class="col-3 col-sm-3 mt-3 col-lg-1">
+                    <div class="row">
+                        <a href="dchat.html"><img src="../Images/icons8_Chevron_Left_26px.png" alt="" class="mr-3"></a> <img src="../Images/icons8_Male_User_50px_1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-5 col-sm-5 mt-3 col-lg-6">
+                    <div class="row m-0 text-dark h3 ">
+                        Adedokun Oluwaseyi Victor
+                    </div>
+                    <div class="row m-0 text-muted">
+                        <i> Active</i>
+                    </div>
+                </div>
+                <div class="col-2 mt-3">
+                    <div class="row">
+                        <button class="btn btn-success mr-1 mt-1">Call</button> 
+                        <button class="btn btn-success mt-1">View Profile</button> 
+                    </div>  
+                </div>
+                <div class="col-2 mt-3">
+                    <div class="row">
+                        <button class="btn btn-success mr-1 mt-1">Report</button> 
+                        <button class="btn btn-success mt-1">Block</button> 
+                    </div>  
+                </div>
+            </div>
+            <hr>
+            <div class="container bg-dark" id="messageimage">
+                <div class="row">
+                    <div class="mx-auto">
+                        <button class="btn btn-light">Yesterday</button> 
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div>
+                        <button class="btn btn-success"><div class="h4">Hello World</div></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ml-auto">
+                        <button class="btn btn-light"><i class="h4">Typing...</i></button>
+                    </div>
+                </div>
+                <hr id="message">
+                <div class="row m-0">
+                    <div class="col-1 m-0 bg-success pt-4">
+                        <img src="../Images/icons8_File_50px.png" alt="" id="menulink" class="pr-2"><img src="../Images/icons8_Link_52px.png" alt="" id="menulink">
+                    </div>
+                    <div class="col-10">
+                        <textarea name="message" placeholder="Messages" id="" cols="30" rows="3" style="width: 100%;"></textarea>
+                    </div>
+                    <div class="col-1">
+                        <button class="btn btn-success p-4">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
